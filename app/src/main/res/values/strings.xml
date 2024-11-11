@@ -2,14 +2,14 @@
     <string name="app_name">DZGridLayoutTableLayout</string>
     <string name="exit">Выход из приложения</string>
     <string name="infoStr">Информация о приложении</string>
-    <string name="input">Ввод</string>
+    <string name="input">0</string>
     <string name="text_view_result">Результат</string>
     <string name="one">1</string>
     <string name="two">2</string>
     <string name="three">3</string>
     <string name="four">4</string>
     <string name="five">5</string>
-    <string name="six">7</string>
+    <string name="six">6</string>
     <string name="seven">7</string>
     <string name="eight">8</string>
     <string name="nine">9</string>
