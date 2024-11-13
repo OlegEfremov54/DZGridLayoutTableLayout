@@ -1,7 +1,6 @@
 package com.example.dzgridlayouttablelayout
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -194,7 +193,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             inputTV.text = expression + operand
         }
     }
-
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main,menu)

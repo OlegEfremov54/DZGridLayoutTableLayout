@@ -12,7 +12,6 @@ class CountViewModel: ViewModel() {
         var next: String = ""
         val size = stroka.length
         var operand: String = ""
-
         val lastElement: Char = stroka[stroka.length - 1]
 
         if (lastElement == '+' ||
@@ -40,7 +39,6 @@ class CountViewModel: ViewModel() {
                 }
             }
         }
-
         if (prev != "" && next != "" && operand != "") {
             when (operand) {
                 "+" -> {
