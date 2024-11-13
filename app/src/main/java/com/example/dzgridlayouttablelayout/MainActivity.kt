@@ -54,12 +54,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     countViewModel=ViewModelProvider(this)[CountViewModel::class.java]
 
-        countViewModel.corentResult.observe(this, Observer {
+        countViewModel.corentActiv.observe(this, Observer {
         inputTV.text=it.toString()
         })
 
-        countViewModel.corentInputTV.observe(this, Observer {
-            resultTV.text=it.toString() })
 
 
         toolbarMain = findViewById(R.id.toolbarMain)
